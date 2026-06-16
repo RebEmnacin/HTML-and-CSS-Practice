@@ -1,0 +1,24 @@
+.russia {
+    background: white;
+    margin-bottom: 0px;
+ 
+}
+
+.white {
+    background: red;
+    height: 100px;
+}
+
+.blue {
+    background: blue;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.red {
+    background: green;
+    height: 100px;
+}
+
