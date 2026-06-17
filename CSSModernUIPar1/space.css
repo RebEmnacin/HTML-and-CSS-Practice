@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+#hero {
+    background-image: url("galaxy.gif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.btn {
+    background: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: none;
+    font-family: inherit;
+    color: #82a5ca;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+#spaceX {
+    width: 200px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+/* id only be used onced */
+/* class can be something to reuse again and again */
+
