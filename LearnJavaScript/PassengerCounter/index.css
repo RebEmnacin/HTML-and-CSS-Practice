@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-    color: red;
+    color: yellow;
 }
 
 #increment-btn {
@@ -42,5 +42,9 @@ button:hover {
 
 #save-btn {
     background: darkgreen;
+}
+
+#reset-btn {
+    background: darkorange;
 }
 

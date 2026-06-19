@@ -1,18 +1,36 @@
-let lapsCompleted = 0
-function incrementLap() {
-    lapsCompleted = lapsCompleted + 1
+let countEl = document.getElementById("count-el") //pass in arguments
+let saveEl = document.getElementById("save-el")
+let resetEl = document.getElementById("reset-el")
+let count = 0
+function increment() {
+    count = count += 1
+    countEl.textContent = count
+    console.log(count)
 }
 
-    incrementLap()
-    incrementLap()
-    incrementLap()
-    console.log(lapsCompleted)
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
+}
+
+//function reset() {
+//    count = 0
+//    countEl.textContent = count
+//    console.log(count)
+//}
 
 
+//let lapsCompleted = 0
+//function incrementLap() {
+//    lapsCompleted = lapsCompleted + 1
+//}
 
-
-
-
+//   incrementLap()
+//  incrementLap()
+//incrementLap()
+//console.log(lapsCompleted)
 
 
 //document.getElementById("count-el").innerText = 5
